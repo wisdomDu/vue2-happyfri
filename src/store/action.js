@@ -11,5 +11,9 @@ export default {
 	//初始化信息
 	initializeData({ commit }) {
 		commit('INITIALIZE_DATA');
+	},
+	//设置选中题目
+	setWord({commit, state}, num) {
+		commit('SET_ITEMNUM', num);
 	}
 }

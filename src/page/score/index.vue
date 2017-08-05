@@ -4,14 +4,6 @@
             <header class="your_scores"><span class="score_num">{{score}}</span><span class="fenshu">分！</span></header>
             <div class="result_tip">{{scoreTips}}</div>
         </div>
-        <div class="share_button" @click="showCover"></div>
-        <div class="share_code">
-            <header class="share_header">关注葡萄之家，获取答案。</header>
-            <img src="../../images/4-4.png" height="212" width="212" class="code_img"> 
-        </div>
-        <div class="share_cover" v-show="showHide" @click="showCover">
-            <img src="../../images/5-2.png" class="share_img">
-        </div>
   	</div>
 </template>
 
@@ -43,10 +35,6 @@ export default {
                 }
             })
         },
-        //是否显示分享提示
-        showCover: function (){
-            this.showHide = !this.showHide;
-        },
         //根据分数显示提示
         getScoreTip: function (){
             if(this.score <= 20) {
@@ -77,7 +65,7 @@ export default {
 <style lang="less">
     body{
         background-image: url(../../images/4-1.jpg);
-        padding-top: 1.2rem;
+        // padding-top: 1.2rem;
     }
     .your_scores_container{
         width: 9.7rem;
@@ -86,6 +74,7 @@ export default {
         background-size: 100% 100%;
         margin: 0 auto 0;
         position: relative;
+        top: 8rem;
         .your_scores{
             position: absolute;
             width: 100%;
