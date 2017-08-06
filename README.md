@@ -1,5 +1,6 @@
 # 说明
 > 此项目fork自[bailicangdu]("https://github.com/bailicangdu/vue2-happyfri")
+> 
 >在其基础上进行了部分修改用作个人背单词训练使用。
 
 ## 界面如下
