@@ -3,6 +3,7 @@
 >在其基础上进行了部分修改用作个人背单词训练使用。
 
 ###界面如下
+
 ![首页](src/screenshot/1.png)
 ![单词](src/screenshot/2.png)
 ![翻译](src/screenshot/3.png)
